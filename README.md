@@ -36,7 +36,8 @@ Tabelas de Dimensão:
 Tabela de Fato:
 - FactProductInventory
 
-![Resultado final do Modelo Dimensional](./docs/Modelo20Dimensional.png)
+![Resultado final do Modelo Dimensional]("./docs/Modelo Dimensional.png")
+
 
 
 ---
