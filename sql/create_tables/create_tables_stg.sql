@@ -62,4 +62,3 @@ CREATE TABLE dbo.stg_DimProductCategory
     SpanishProductCategoryName     NVARCHAR(50),
     FrenchProductCategoryName      NVARCHAR(50)
 );
-
