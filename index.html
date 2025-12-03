@@ -346,7 +346,7 @@
     
     <p>Exemplo do relacionamento - DimDate <- FactProductInventory -> DimProduct:</p>
     <pre><code class="language-sql">
-            ALTER TABLE dbo.FactProductInventory
+    ALTER TABLE dbo.FactProductInventory
     ADD CONSTRAINT FK_FactProductInventory_Product
         FOREIGN KEY (ProductKey) REFERENCES dbo.DimProduct(ProductKey);
     
