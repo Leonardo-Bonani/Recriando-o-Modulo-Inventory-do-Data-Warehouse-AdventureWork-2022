@@ -1,4 +1,4 @@
-#  Recriando o Modulo Inventory do Data Warehouse AdventureWork 2022. 
+#  Recriando o Modulo Inventory do Data Warehouse AdventureWorks 2022. 
 
 📌 **1. Objetivo do projeto**
 
