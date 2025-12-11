@@ -29,6 +29,21 @@
             box-sizing: border-box;
         }
 
+          header {
+            padding: 20px 40px;
+            background: white;
+            border-bottom: 1px solid #eee;
+            position: sticky;
+            top: 0;
+          }
+        
+            .header-container {
+            max-width: 720px;   
+            margin: 0 auto;     
+            display: flex;
+            flex-direction: column; 
+          }
+
         h1, h2, h3 {
             font-family: 'Inter', sans-serif;
             font-weight: 700;
@@ -125,11 +140,17 @@
     </style>
 </head>
 <body>
-    
-<a href="https://leonardo-bonani.github.io/leonardobonani.github.io/" class="btn-voltar">
+
+
+<header>
+  <div class="header-container">
+    <h1>Meus Projetos</h1>
+    <a href="https://leonardo-bonani.github.io/leonardobonani.github.io/" class="btn-voltar">
   ⬅ Voltar ao Menu
-</a>
-    
+    </a>
+  </div>
+</header>
+       
 <h1>Recriando o Módulo Inventory do Data Warehouse AdventureWorks 2022</h1>
 
 <div class="section">
